@@ -1,6 +1,7 @@
 import { Experience, Education, Skill, Language, ProfileData, Project } from './types';
+import profileImage from './profile.jpeg';
 
-export const PROFILE_IMAGE_URL = "./profile.jpg"; // User provided image
+export const PROFILE_IMAGE_URL = profileImage;
 
 export const PROFILE: ProfileData = {
   name: "Paulo Pereira",
