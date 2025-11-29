@@ -1,6 +1,6 @@
 import React from 'react';
 import { PROFILE } from '../constants';
-import { Mail, Phone, MapPin, Linkedin, ArrowUp } from 'lucide-react';
+import { Mail, Phone, MapPin, ArrowUp } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const scrollToTop = () => {

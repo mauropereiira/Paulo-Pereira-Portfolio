@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
+import { motion, useTransform, useSpring, useMotionValue } from 'framer-motion';
 import { PROFILE, PROFILE_IMAGE_URL } from '../constants';
 import { Mail, MapPin, Languages, MessageSquare, BookOpen, Quote } from 'lucide-react';
 
@@ -177,7 +177,7 @@ const Hero: React.FC = () => {
         </motion.div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes shine {
           100% { transform: translateX(100%); }
         }
