@@ -6,7 +6,7 @@ export const PROFILE_IMAGE_URL = '/profile.jpg';
 export const PROFILE: ProfileData = {
   name: "Paulo Pereira",
   title: "Senior Interpreter and Translator",
-  summary: "Senior Interpreter and Translator with 6+ years of professional interpretation experience and more than 5,000 hours of audio and video interpreting across healthcare, legal, and corporate sectors. Awarded the Senior Interpreter Certificate in 2023. Fluent in Portuguese, English, and French, with advanced Spanish. Skilled in accurate, culturally sensitive communication, translation, and proofreading, with a background in teaching and editorial work.",
+  summary: "Senior Interpreter and Translator with 6+ years of professional interpretation experience and more than 5,000 hours of audio and video interpreting across healthcare, legal, and corporate sectors. Awarded the Senior Interpreter Certificate in 2023. Fluent in Portuguese, English, and French. Skilled in accurate, culturally sensitive communication, translation, and proofreading, with a background in teaching and editorial work.",
   contact: {
     location: "Lisbon, Portugal",
     phone: "+351 967915402",
@@ -26,8 +26,7 @@ export const SKILLS: Skill[] = [
 export const LANGUAGES: Language[] = [
   { name: "Portuguese", level: "Native" },
   { name: "English", level: "Fluent (C2)" },
-  { name: "French", level: "Fluent (C2)" },
-  { name: "Spanish", level: "Advanced" }
+  { name: "French", level: "Fluent (C2)" }
 ];
 
 export const EXPERIENCE: Experience[] = [
