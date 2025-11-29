@@ -114,7 +114,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-slate-400 mb-8 max-w-lg mx-auto md:mx-0 leading-relaxed"
           >
-            Bridging communication gaps with <span className="text-gold-500 font-semibold">5,000+ hours</span> of professional interpretation. Fluent in Portuguese, English, French, and Spanish.
+            Bridging communication gaps with <span className="text-gold-500 font-semibold">5,000+ hours</span> of professional interpretation. Fluent in Portuguese, English, and French.
           </motion.p>
 
           <motion.div 
