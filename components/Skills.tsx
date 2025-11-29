@@ -23,10 +23,6 @@ const Skills: React.FC = () => {
     return `${x},${y}`;
   }).join(' ');
 
-  const bgPolyPoints = SKILLS.map((_, i) => {
-    const { x, y } = getCoordinates(i, 100);
-    return `${x},${y}`;
-  }).join(' ');
 
   return (
     <section className="py-24 bg-slate-900 relative" id="skills">
@@ -109,7 +105,6 @@ const Skills: React.FC = () => {
               {/* Skill Labels aligned around center */}
               {SKILLS.map((skill, i) => {
                  const { x, y } = getCoordinates(i, 125);
-                 const anchor = x < center ? 'end' : x > center ? 'start' : 'middle';
                  return (
                    <div 
                      key={i} 

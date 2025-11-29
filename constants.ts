@@ -1,5 +1,5 @@
 import { Experience, Education, Skill, Language, ProfileData, Project } from './types';
-import profileImage from './profile.jpeg';
+import profileImage from './profile.jpg';
 
 export const PROFILE_IMAGE_URL = profileImage;
 
